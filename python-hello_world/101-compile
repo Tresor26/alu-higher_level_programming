@@ -1,0 +1,7 @@
+#!/bin/bash
+
+python3 -m py_compile "$PYFILE"
+
+compiled_file=$(echo "$PYFILE"c)
+mv "__pycache__/${PYFILE%.*}.cpython-38.pyc" "$compiled_file"
+rmdir "__pycache__"
