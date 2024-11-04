@@ -2,6 +2,8 @@
 """
 Module containing classes Node and SinglyLinkedList.
 """
+
+
 class Node:
 
 
