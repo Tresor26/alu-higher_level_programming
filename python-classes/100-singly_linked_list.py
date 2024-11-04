@@ -4,8 +4,6 @@ Module containing classes Node and SinglyLinkedList.
 """
 
 class Node:
-
-
     """Represents a node in a singly linked list."""
 
     def __init__(self, data, next_node=None):
