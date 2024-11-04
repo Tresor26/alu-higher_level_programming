@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 """
-Module containing classes Node and SinglyLinkedList to define a node and singly linked list.
+Module containing classes Node and SinglyLinkedList.
 """
 
 class Node:
     """Represents a node in a singly linked list."""
+
 
     def __init__(self, data, next_node=None):
         """
@@ -75,4 +76,3 @@ class SinglyLinkedList:
                 current = current.next_node
             new_node.next_node = current.next_node
             current.next_node = new_node
-
