@@ -1,6 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/node
 
-const arg1 = process.argv[2];
-const arg2 = process.argv[3];
-
-console.log(`${arg1 || "undefined"} is ${arg2 || "undefined"}`);
+const argv = process.argv.slice(2);
+console.log(argv[0] + ' is ' + argv[1]);
